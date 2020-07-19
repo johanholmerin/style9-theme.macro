@@ -1,0 +1,25 @@
+{
+  "name": "style9-theme.macro",
+  "version": "0.1.0",
+  "author": "Johan Holmerin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johanholmerin/style9-theme.macro.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-syntax-jsx": "^7.10.4",
+    "@theme-ui/custom-properties": "^0.3.0",
+    "@theme-ui/presets": "^0.3.0",
+    "esm": "^3.2.25",
+    "style9-jsx-prop": "git+https://github.com/johanholmerin/style9-jsx-prop#semver:^0.1.1"
+  },
+  "dependencies": {
+    "@babel/types": "^7.9.6",
+    "@theme-ui/css": "^0.4.0-rc.1",
+    "babel-plugin-macros": "^2.8.0",
+    "pluralize": "^8.0.0",
+    "style9": "^0.5.2"
+  }
+}
